@@ -1,0 +1,5 @@
+Jan 10 10:01:01 server sshd[1234]: Failed password for root from 1.2.3.4 port 54321 ssh2
+Jan 10 10:01:10 server sshd[1235]: Failed password for root from 1.2.3.4 port 54322 ssh2
+Jan 10 10:01:20 server sshd[1236]: Failed password for root from 1.2.3.4 port 54323 ssh2
+Jan 10 10:01:30 server sshd[1237]: Failed password for root from 1.2.3.4 port 54324 ssh2
+Jan 10 10:01:40 server sshd[1238]: Failed password for root from 1.2.3.4 port 54325 ssh2
