@@ -31,4 +31,7 @@ python main.py --log /var/log/auth.log
 --threshold   Number of failed attempts (default: 5)
 --window      Time window in minutes (default: 5)
     
+    ## About the Author
+    
+    Built by a Linux systems and security practitioner with over 7 years of experience operating and securing production Ubuntu servers, including monitoring and maintaining online trading platforms.
     
