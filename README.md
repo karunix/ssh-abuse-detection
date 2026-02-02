@@ -24,24 +24,11 @@ python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 Usage
-python main.py
-Sample output:
-    
-    [!] Possible brute-force from 1.2.3.4 (5 attempts in 5 minutes)
-    Project Structure
-    ssh-abuse-detection/
-    ├── main.py
-    ├── requirements.txt
-    ├── samples/
-    │   └── auth.log
-    └── ssh_abuse/
-    ├── parser.py
-    ├── detectors.py
-    └── models.py
-    Motivation
-    This project was built to demonstrate practical log analysis and attack detection techniques commonly used in Linux server security and SOC environments.
-    
-    License
-    MIT
+```bash
+python main.py --log /var/log/auth.log
+
+## Optional Arguments:
+--threshold   Number of failed attempts (default: 5)
+--window      Time window in minutes (default: 5)
     
     
